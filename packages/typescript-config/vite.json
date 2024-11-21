@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "./base.json",
+    "compilerOptions": {
+      "allowJs": false,
+      "moduleResolution": "node16",
+      "esModuleInterop": false,
+      "jsx": "react",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "module": "Node16",
+      "noEmit": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": false,
+      "target": "ESNext",
+      "types": ["vite/client"]
+    }
+  }

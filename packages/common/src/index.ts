@@ -1,0 +1,1 @@
+export const BACKEND_URL = "google.api.com"
